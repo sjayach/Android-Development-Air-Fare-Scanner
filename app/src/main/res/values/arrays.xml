@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string-array name="pref_currency_options">
+        <item>@string/pref_currency_label_us</item>
+        <item>@string/pref_currency_label_in</item>
+        <item>@string/pref_currency_label_au</item>
+        <item>@string/pref_currency_label_uk</item>
+    </string-array>
+
+    <string-array name="pref_currency_values">
+        <item>@string/pref_currency_us</item>
+        <item>@string/pref_currency_in</item>
+        <item>@string/pref_currency_au</item>
+        <item>@string/pref_currency_uk</item>
+    </string-array>
+</resources>

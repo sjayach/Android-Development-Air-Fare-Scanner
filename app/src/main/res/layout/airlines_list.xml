@@ -1,0 +1,141 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:id="@+id/airlineListLayout"
+    android:weightSum="1">
+    <ImageView
+        android:layout_width="70dp"
+        android:layout_height="50dp"
+        android:id="@+id/departView" />
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="67dp"
+        android:weightSum="1">
+
+        <TextView
+            android:layout_width="52dp"
+            android:layout_height="49dp"
+            android:textAppearance="?android:attr/textAppearanceSmall"
+            android:text="Depart Time"
+            android:id="@+id/departTime"
+            style="@style/CustomText"/>
+
+        <TextView
+            android:layout_width="45dp"
+            android:layout_height="48dp"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:text="Depart Airport"
+            android:id="@+id/departAirport"
+            android:layout_weight="0.46"
+            style="@style/CustomText"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="43dp"
+            android:textAppearance="?android:attr/textAppearanceSmall"
+            android:text="Travel Time"
+            android:id="@+id/travelTime"
+            android:layout_weight="0.15"
+            style="@style/CustomText"/>
+
+        <TextView
+            android:layout_width="67dp"
+            android:layout_height="43dp"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:text="Arrival Airport"
+            android:id="@+id/arrivalAirport"
+            android:layout_weight="0.11"
+            style="@style/CustomText"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceSmall"
+            android:text="Arrival Time"
+            android:id="@+id/arrivalTime"
+            style="@style/CustomText"/>
+
+
+
+    </LinearLayout>
+
+    <ImageView
+        android:layout_width="70dp"
+        android:layout_height="50dp"
+        android:id="@+id/arriveView" />
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="67dp"
+        android:weightSum="1"
+        android:id="@+id/returnLinearLayout">
+
+
+        <TextView
+            android:layout_width="52dp"
+            android:layout_height="49dp"
+            android:textAppearance="?android:attr/textAppearanceSmall"
+            android:text=""
+            android:id="@+id/departTime1"
+            style="@style/CustomText"/>
+
+        <TextView
+            android:layout_width="45dp"
+            android:layout_height="48dp"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:text=""
+            android:id="@+id/departAirport1"
+            android:layout_weight="0.46"
+            style="@style/CustomText"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="43dp"
+            android:textAppearance="?android:attr/textAppearanceSmall"
+            android:text=""
+            android:id="@+id/travelTime1"
+            android:layout_weight="0.15"
+            style="@style/CustomText"/>
+
+        <TextView
+            android:layout_width="67dp"
+            android:layout_height="43dp"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:text=""
+            android:id="@+id/arrivalAirport1"
+            android:layout_weight="0.11"
+            style="@style/CustomText"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceSmall"
+            android:text=""
+            android:id="@+id/arrivalTime1"
+            style="@style/CustomText"/>
+
+
+
+    </LinearLayout>
+    <TextView
+        android:layout_width="114dp"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="Price"
+        android:id="@+id/price"
+        android:layout_gravity="center_horizontal"
+        android:textColor="#DB1E26"/>
+
+    <ImageView
+        android:layout_width="103dp"
+        android:layout_height="wrap_content"
+        android:id="@+id/imageView"
+        android:layout_gravity="right"
+        android:layout_weight="0.28" />
+
+</LinearLayout>

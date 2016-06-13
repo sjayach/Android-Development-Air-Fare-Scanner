@@ -1,0 +1,58 @@
+<resources>
+    <string name="app_name">AirFareScanner</string>
+    <string name="action_settings">Settings</string>
+    <string name="departDate">Depart Date</string>
+    <string name="arriveDate">Arrive Date</string>
+    <string-array name="dropdown_array">
+        <item>Economy Class</item>
+        <item>Premium Economy</item>
+        <item>Business Class</item>
+        <item>First Class</item>
+    </string-array>
+    <string-array name="adultNumber">
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+        <item>5</item>
+        <item>6</item>
+        <item>7</item>
+        <item>8</item>
+        <item>9</item>
+
+    </string-array>
+    <string-array name="childNumber">
+        <item>0</item>
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+        <item>5</item>
+
+    </string-array>
+
+    <string name="result_activity_detail">Details</string>
+    <string name="hint_from">From</string>
+    <string name="hint_to">To</string>
+    <string name="hint_depart">Depart</string>
+    <string name="hint_arrive">Arrive</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="pref_currency_label">Currency Country</string>
+    <string name="pref_currency_key" translatable="false">currency</string>
+    <string name="pref_currency_label_us">USA</string>
+    <string name="pref_currency_label_in">INDIA</string>
+    <string name="pref_currency_label_au">AUSTRALIA</string>
+    <string name="pref_currency_label_uk">UK</string>
+    <string name="pref_currency_us" translatable="false">US</string>
+    <string name="pref_currency_in" translatable="false">IN</string>
+    <string name="pref_currency_au" translatable="false">AU</string>
+    <string name="pref_currency_uk" translatable="false">GB</string>
+
+
+
+
+
+</resources>
+
